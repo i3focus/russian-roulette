@@ -1,0 +1,34 @@
+{
+  "name": "russian-roulette",
+  "version": "1.0.0",
+  "description": "Russian Roulette Dapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.ts --network sepolia",
+    "verify": "npx hardhat verify --network sepolia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i3focus/russian-roulette.git"
+  },
+  "keywords": [
+    "web3",
+    "dapp",
+    "token",
+    "smartcontract"
+  ],
+  "author": "jether@i3focus.com.br",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/i3focus/russian-roulette/issues"
+  },
+  "homepage": "https://github.com/i3focus/russian-roulette#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0"
+  }
+}
