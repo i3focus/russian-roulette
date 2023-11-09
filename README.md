@@ -12,6 +12,7 @@
 ✔ Do you want to install this sample project's dependencies with npm (@nomicfoundation/hardhat-toolbox)? (Y/n) · y
 ```
 5. Install OpenZeppelin Contracts libraries `npm i @openzeppelin/contracts`
-6. Running tests `npm run test` (configured on package.json scripts)
-7. Running deploy `npm run deploy` (configured on package.json scripts)
-8. Running verify `npm run verify -- ${DEPLOYED CONTRACT ADDRESS}` (configured on package.json scripts)
+6. Install DOTEND to load environment variables `npm i dotenv`
+7. Running tests `npm run test` (configured on package.json scripts)
+8. Running deploy `npm run deploy` (configured on package.json scripts)
+9. Running verify `npm run verify -- ${DEPLOYED CONTRACT ADDRESS}` (configured on package.json scripts)
